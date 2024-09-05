@@ -1,0 +1,227 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.newproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:4:5-79
+13-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:4:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:5:5-65
+14-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:5:22-62
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:6:5-79
+15-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:6:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:7:5-80
+16-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:8:5-81
+17-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.182.0] /Users/skitesocial3/.gradle/caches/transforms-3/9cea4943e9d409d23620d507173d3e59/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.182.0] /Users/skitesocial3/.gradle/caches/transforms-3/9cea4943e9d409d23620d507173d3e59/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+19
+20    <uses-feature
+20-->[:react-native-camera] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:9:5-11:36
+21        android:name="android.hardware.camera"
+21-->[:react-native-camera] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:10:9-47
+22        android:required="false" />
+22-->[:react-native-camera] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:11:9-33
+23    <uses-feature
+23-->[:react-native-camera] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:12:5-14:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[:react-native-camera] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:13:9-57
+25        android:required="false" />
+25-->[:react-native-camera] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:14:9-33
+26
+27    <application
+27-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:10:5-29:19
+28        android:name="com.newproject.MainApplication"
+28-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:11:7-38
+29        android:allowBackup="false"
+29-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:15:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.8.0] /Users/skitesocial3/.gradle/caches/transforms-3/b4728e5be5697e4ebc8a5f7f2a7e58cf/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:13:7-41
+33        android:label="@string/app_name"
+33-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:12:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:14:7-52
+35        android:theme="@style/AppTheme"
+35-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:16:7-38
+36        android:usesCleartextTraffic="true" >
+36-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/debug/AndroidManifest.xml:8:9-44
+37        <activity
+37-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/debug/AndroidManifest.xml:11:9-111
+38            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+38-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/debug/AndroidManifest.xml:11:19-83
+39            android:exported="false" />
+39-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/debug/AndroidManifest.xml:11:84-108
+40        <activity
+40-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:17:7-28:18
+41            android:name="com.newproject.MainActivity"
+41-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:18:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+42-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:20:9-118
+43            android:exported="true"
+43-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:23:9-32
+44            android:label="@string/app_name"
+44-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:19:9-41
+45            android:launchMode="singleTask"
+45-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:21:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:22:9-51
+47            <intent-filter>
+47-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:24:9-27:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:25:13-65
+48-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:25:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:26:13-73
+50-->/Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/AndroidManifest.xml:26:23-70
+51            </intent-filter>
+52        </activity>
+53
+54        <meta-data
+54-->[com.facebook.soloader:soloader:0.10.5] /Users/skitesocial3/.gradle/caches/transforms-3/dfc49c8216dc6ccf22b568b1cdcf7bc4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+55            android:name="com.facebook.soloader.enabled"
+55-->[com.facebook.soloader:soloader:0.10.5] /Users/skitesocial3/.gradle/caches/transforms-3/dfc49c8216dc6ccf22b568b1cdcf7bc4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+56            android:value="false" />
+56-->[com.facebook.soloader:soloader:0.10.5] /Users/skitesocial3/.gradle/caches/transforms-3/dfc49c8216dc6ccf22b568b1cdcf7bc4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+57
+58        <service
+58-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/skitesocial3/.gradle/caches/transforms-3/820c4e85835dfd7c42a3284c0f2719c9/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:9:9-15:19
+59            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+59-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/skitesocial3/.gradle/caches/transforms-3/820c4e85835dfd7c42a3284c0f2719c9/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:10:13-91
+60            android:directBootAware="true"
+60-->[com.google.mlkit:common:17.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/47ec559c0489662b018aa6d2f38c57ce/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+61            android:exported="false" >
+61-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/skitesocial3/.gradle/caches/transforms-3/820c4e85835dfd7c42a3284c0f2719c9/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:11:13-37
+62            <meta-data
+62-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/skitesocial3/.gradle/caches/transforms-3/820c4e85835dfd7c42a3284c0f2719c9/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+63                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+63-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/skitesocial3/.gradle/caches/transforms-3/820c4e85835dfd7c42a3284c0f2719c9/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/skitesocial3/.gradle/caches/transforms-3/820c4e85835dfd7c42a3284c0f2719c9/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+65            <meta-data
+65-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/97d4f95c8ba4a7bf82e20d0579cf7c0d/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+66                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+66-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/97d4f95c8ba4a7bf82e20d0579cf7c0d/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/97d4f95c8ba4a7bf82e20d0579cf7c0d/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+68            <meta-data
+68-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/986e9f1871da9a190834843c9aca09c2/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+69                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+69-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/986e9f1871da9a190834843c9aca09c2/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/986e9f1871da9a190834843c9aca09c2/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+71            <meta-data
+71-->[com.google.mlkit:vision-common:16.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/c6fb747db093c2130e438673800c0dda/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+72                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+72-->[com.google.mlkit:vision-common:16.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/c6fb747db093c2130e438673800c0dda/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.mlkit:vision-common:16.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/c6fb747db093c2130e438673800c0dda/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+74            <meta-data
+74-->[com.google.mlkit:common:17.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/47ec559c0489662b018aa6d2f38c57ce/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+75                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+75-->[com.google.mlkit:common:17.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/47ec559c0489662b018aa6d2f38c57ce/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.mlkit:common:17.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/47ec559c0489662b018aa6d2f38c57ce/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+77        </service>
+78
+79        <provider
+79-->[com.google.mlkit:common:17.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/47ec559c0489662b018aa6d2f38c57ce/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+80            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+80-->[com.google.mlkit:common:17.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/47ec559c0489662b018aa6d2f38c57ce/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+81            android:authorities="com.newproject.mlkitinitprovider"
+81-->[com.google.mlkit:common:17.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/47ec559c0489662b018aa6d2f38c57ce/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+82            android:exported="false"
+82-->[com.google.mlkit:common:17.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/47ec559c0489662b018aa6d2f38c57ce/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+83            android:initOrder="99" />
+83-->[com.google.mlkit:common:17.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/47ec559c0489662b018aa6d2f38c57ce/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:18.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/5104d6e39e3a741eb7ee30d18dd235b7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:18.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/5104d6e39e3a741eb7ee30d18dd235b7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:18.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/5104d6e39e3a741eb7ee30d18dd235b7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:18.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/5104d6e39e3a741eb7ee30d18dd235b7/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:18.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/60366bc2a641cfbe77bc403eb7a310dc/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:18.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/60366bc2a641cfbe77bc403eb7a310dc/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:18.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/60366bc2a641cfbe77bc403eb7a310dc/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.0.0] /Users/skitesocial3/.gradle/caches/transforms-3/86376f9cad83c077e9353d645747f355/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.0.0] /Users/skitesocial3/.gradle/caches/transforms-3/86376f9cad83c077e9353d645747f355/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+96            android:authorities="com.newproject.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.0.0] /Users/skitesocial3/.gradle/caches/transforms-3/86376f9cad83c077e9353d645747f355/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.0.0] /Users/skitesocial3/.gradle/caches/transforms-3/86376f9cad83c077e9353d645747f355/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.0.0] /Users/skitesocial3/.gradle/caches/transforms-3/86376f9cad83c077e9353d645747f355/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.0.0] /Users/skitesocial3/.gradle/caches/transforms-3/86376f9cad83c077e9353d645747f355/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.0.0] /Users/skitesocial3/.gradle/caches/transforms-3/86376f9cad83c077e9353d645747f355/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/skitesocial3/.gradle/caches/transforms-3/e3464c9dd5f6688c10fafbce05a18d6c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/skitesocial3/.gradle/caches/transforms-3/e3464c9dd5f6688c10fafbce05a18d6c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/skitesocial3/.gradle/caches/transforms-3/e3464c9dd5f6688c10fafbce05a18d6c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+104        </provider>
+105
+106        <service
+106-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/skitesocial3/.gradle/caches/transforms-3/333a72668413b463250da835af8daccb/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+107            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+107-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/skitesocial3/.gradle/caches/transforms-3/333a72668413b463250da835af8daccb/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+108            android:exported="false" >
+108-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/skitesocial3/.gradle/caches/transforms-3/333a72668413b463250da835af8daccb/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+109            <meta-data
+109-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/skitesocial3/.gradle/caches/transforms-3/333a72668413b463250da835af8daccb/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+110                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+110-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/skitesocial3/.gradle/caches/transforms-3/333a72668413b463250da835af8daccb/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+111                android:value="cct" />
+111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/skitesocial3/.gradle/caches/transforms-3/333a72668413b463250da835af8daccb/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+112        </service>
+113        <service
+113-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+114            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+114-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+115            android:exported="false"
+115-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+116            android:permission="android.permission.BIND_JOB_SERVICE" >
+116-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+117        </service>
+118
+119        <receiver
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+120            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+120-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+121            android:exported="false" />
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+122    </application>
+123
+124</manifest>
