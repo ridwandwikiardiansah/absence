@@ -2,13 +2,17 @@ import React, { useEffect, useState } from "react";
 import { Image, ScrollView, StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { API } from "../../util/api";
 import color from "../../constant/color";
+import {map} from 'lodash';
 import Icon from 'react-native-vector-icons/Feather'
 import Header from "../../component/Header";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import moment from "moment";
 
 
 const Presensi = (props) => {
     const [list, setList] = useState([])
+    console.log(list);
+    
 
     const getList = async () => {
         const username = await AsyncStorage.getItem('username')
@@ -17,7 +21,7 @@ const Presensi = (props) => {
             username: username
         }
         const getNotif = await API.post('fahim/getlistpresensi.php', body)
-        setList(getNotif.data)
+        setList(getNotif.data.data)
     }
 
     useEffect(()=> {
@@ -32,30 +36,34 @@ const Presensi = (props) => {
         <View style={styles.container}>
            <Header title={'List Presensi'} back={()=> props.navigation.goBack()}/>
             <ScrollView contentContainerStyle={styles.scroll}>
-                <View style={styles.card}>
-                    <View style={styles.avatarContainer}>
-                        <Image source={require("../../asset/1.png")} resizeMode="contain" style={styles.avatar} />
-                        <View>
-                            <Text style={styles.text}>Cameron Williamson</Text>
-                            <Text style={styles.text}>Agent Staff</Text>
+                {
+                    map(list,(a,i) => (
+                        <View style={styles.card} key={i}>
+                        <View style={styles.avatarContainer}>
+                            <Image source={{uri: a.linkfoto}} resizeMode="contain" style={styles.avatar} />
+                            <View style={styles.usernameContainer}>
+                                <Text style={styles.text}>{a.username}</Text>
+                                <Text style={styles.text}>{a.job}</Text>
+                            </View>
+                        </View>
+                        <View style={styles.rows}>
+                        <View style={styles.row}>
+                            <Icon style={styles.icon} name={'calendar'} size={20} color={'red'}/>
+                            <Text style={styles.text}>{moment(a.tanggal).format('DD-MM-YYYY') + ' | ' + moment(a.tanggal).format('HH:mm:a')}</Text>
+                        </View>
+                        <View style={styles.row}>
+                            <Icon style={styles.icon} name={'map-pin'} size={20} color={'green'}/>
+                            <Text style={styles.lokasi}>{a.lokasi}</Text>
+                        </View>
                         </View>
                     </View>
-                    <View style={styles.rows}>
-                    <View style={styles.row}>
-                        <Icon style={styles.icon} name={'calendar'} size={20} color={'red'}/>
-                        <Text style={styles.text}>23-09-2023 | 08:23 Am</Text>
-                    </View>
-                    <View style={styles.row}>
-                        <Icon style={styles.icon} name={'map-pin'} size={20} color={'green'}/>
-                        <Text style={styles.text}>Jalan Pegangsaan...</Text>
-                    </View>
-                    </View>
-                   
-                </View>
+                    ))
+                }
+               
             </ScrollView>
             <TouchableOpacity style={styles.button} onPress={onPressPresensi}>
                 <Icon name={'plus'} size={18} color={color.White}/>
-                <Text style={styles.textButton}>Presensi</Text>
+                <Text style={styles.textButton} numberOfLines={1}>Presensi</Text>
             </TouchableOpacity>
         </View>
     )
@@ -64,6 +72,9 @@ const Presensi = (props) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+    },
+    images: {
+        marginRight: 20
     },
     header: {
         flexDirection: 'row',
@@ -74,6 +85,9 @@ const styles = StyleSheet.create({
         paddingHorizontal: 40,
         borderBottomLeftRadius: 60,
         borderBottomRightRadius: 60
+    },
+    usernameContainer: {
+        marginLeft: 20
     },
     titleHeader: {
         fontSize: 25,
@@ -90,7 +104,9 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         backgroundColor: color.White,
         paddingBottom: 20,
-        borderRadius: 10
+        paddingTop: 20,
+        borderRadius: 10,
+        marginBottom: 10
     },
     avatarContainer: {
         flexDirection: 'row',
@@ -99,10 +115,13 @@ const styles = StyleSheet.create({
     avatar: {
         width: 100,
         height: 100,
-        borderRadius: 100
+        borderRadius: 100,
+        borderWidth: 1,
+        borderColor: color.Primary
     },
     scroll: {
-        padding: 20
+        padding: 20,
+        marginVertical: 20
     },
     button: {
         position: 'absolute',
@@ -133,10 +152,15 @@ const styles = StyleSheet.create({
     rows: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginVertical: 10
     },
     text:{ 
-        color:'#000'
+        color:'#000',
+    },
+    lokasi: {
+        color: '#000',
+        width: 100
     }
 })
 

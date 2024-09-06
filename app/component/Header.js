@@ -1,12 +1,12 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import color from "../constant/color";
 import Icon from 'react-native-vector-icons/Feather'
 
 const Header = (props) => {
     return (
     <View style={styles.header}>
-        <Icon name="arrow-left" size={30} color={color.White} onpress={props.back}/>
+        <Icon name="arrow-left" size={30} color={color.White} onPress={props.back}/>
         <Text style={styles.titleHeader}>{props.title}</Text>
     </View>   
     )

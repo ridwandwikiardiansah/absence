@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Alert, Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { map } from 'lodash'
+import { map, result } from 'lodash'
 import { API } from "../../util/api";
 import color from "../../constant/color";
 import Icon from "react-native-vector-icons/FontAwesome"
@@ -19,6 +19,8 @@ const Home = (props) => {
     const [notif, setNotif] = useState({})
     const [user, setUser] = useState({})
     const [loading, setLoading] = useState(false)
+    console.log(user);
+    
 
 
     const getNotif = async () => {
@@ -71,15 +73,15 @@ const Home = (props) => {
         <View style={styles.container}>
             <View style={styles.header}>
                 <View style={styles.notifContainer}>
-                    <Image style={styles.avatar} source={require('../../asset/1.png')} resizeMode="contain" />
+                    <Image style={styles.avatar} source={{uri: result(user, 'data.linkfoto')}} resizeMode="contain" />
                     <View style={styles.notif}>
                         <Icon name={'bell'} size={25} color={'#000'}/>
                         <Text style={styles.textNotif}>{notif.data}</Text>
                     </View>
 
                 </View>
-                <Text style={styles.username}>Cameron Williamson</Text>
-                <Text style={styles.job}>Agent Staff</Text>
+                <Text style={styles.username}>{result(user, 'data.username')}</Text>
+                <Text style={styles.job}>{result(user, 'data.job')}</Text>
             </View>
             <View style={styles.menuContainer}>
                 {
