@@ -8,6 +8,7 @@ MERGED from /Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/An
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] /Users/skitesocial3/.gradle/caches/transforms-3/5a4ea1bf47ea439e1de74d4ff96d56d2/transformed/jetified-flipper-network-plugin-0.182.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /Users/skitesocial3/.gradle/caches/transforms-3/f3a1b987e00f9bccc74231782ae153b8/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/skitesocial3/.gradle/caches/transforms-3/9cea4943e9d409d23620d507173d3e59/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:8:1-18:12
+MERGED from [:react-native-async-storage_async-storage] /Users/skitesocial3/Documents/ridwan/absence/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-community_geolocation] /Users/skitesocial3/Documents/ridwan/absence/node_modules/@react-native-community/geolocation/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-camera] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:2:1-16:12
 MERGED from [:react-native-gesture-handler] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -15,15 +16,18 @@ MERGED from [:react-native-safe-area-context] /Users/skitesocial3/Documents/ridw
 MERGED from [:react-native-screens] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-vector-icons] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.72.4] /Users/skitesocial3/.gradle/caches/transforms-3/960b59e0a84275b9e83adc8e44ba70a4/transformed/jetified-react-android-0.72.4-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/2f52865bf2eeb4c824462459a43e9260/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/eb6737efad756fc38ccd1bf1e85418dc/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/c24482f7f46737d90c119fd767c0dc5d/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/159a5ddd2b273f458aefd71de461d9f6/transformed/jetified-animated-gif-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:hermes-android:0.72.4] /Users/skitesocial3/.gradle/caches/transforms-3/8ef81fd25974a65cf0f56b860e745044/transformed/jetified-hermes-android-0.72.4-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/4445ae53fe5b5ec4b9a9ba339b72d026/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.core:core-ktx:1.8.0] /Users/skitesocial3/.gradle/caches/transforms-3/4c4298f9160fa0c11d2eaf376411b9c3/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/skitesocial3/.gradle/caches/transforms-3/d028931c5737aa374cec341e99e2d6ea/transformed/jetified-openssl-1.1.1l-beta-1/AndroidManifest.xml:1:1-3:12
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/skitesocial3/.gradle/caches/transforms-3/b0ca6611cc895d2029280bab1de55447/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/2f52865bf2eeb4c824462459a43e9260/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/eb6737efad756fc38ccd1bf1e85418dc/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/c24482f7f46737d90c119fd767c0dc5d/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/f948142c75887a5503c3432504f9dd18/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-base:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/b08ae571eb946a938c8691a2a224c89b/transformed/jetified-animated-base-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/2bd586aaec6be09aed342d47e71b1f26/transformed/jetified-animated-drawable-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/1143830b622d71107c5c51d719a5a9a5/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/bff75d294cde3c99b06c08bc0680c3ad/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/52b560c4a7717faed2a86b6c09209932/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
@@ -66,6 +70,7 @@ MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/skitesocial3/.gradle/c
 MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/ceec7210020992efb416ecd1994ad280/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/skitesocial3/.gradle/caches/transforms-3/333a72668413b463250da835af8daccb/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/89336414ed3732fa579a71ef2ec54766/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/skitesocial3/.gradle/caches/transforms-3/c4bba914ff23503e1b01e796edf753b9/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/b3aa957f80b6a39fdb9e5be2fe9d7391/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/4b9c024408179b3ab949756cfd7798f8/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
@@ -100,7 +105,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/skitesocial3/.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/skitesocial3/.gradle/caches/transforms-3/b28af226de76222fe9db015d9288fab3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/skitesocial3/.gradle/caches/transforms-3/6b8692173653e325570d9473aeab2cae/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/f194345dc6278e2f13fd2c9268c2087f/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/89336414ed3732fa579a71ef2ec54766/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/skitesocial3/.gradle/caches/transforms-3/58ec593d588b7ce6309ff38e928d8768/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/931e193039ac7658f1a60a1df32141e0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/skitesocial3/Documents/ridwan/absence/android/app/src/debug/AndroidManifest.xml:2:1-13:12
@@ -260,6 +264,8 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /Users/skitesoc
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /Users/skitesocial3/.gradle/caches/transforms-3/f3a1b987e00f9bccc74231782ae153b8/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/skitesocial3/.gradle/caches/transforms-3/9cea4943e9d409d23620d507173d3e59/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.182.0] /Users/skitesocial3/.gradle/caches/transforms-3/9cea4943e9d409d23620d507173d3e59/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/skitesocial3/Documents/ridwan/absence/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /Users/skitesocial3/Documents/ridwan/absence/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-community_geolocation] /Users/skitesocial3/Documents/ridwan/absence/node_modules/@react-native-community/geolocation/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-community_geolocation] /Users/skitesocial3/Documents/ridwan/absence/node_modules/@react-native-community/geolocation/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-camera] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/merged_manifest/mlkitDebug/AndroidManifest.xml:5:5-44
@@ -274,6 +280,14 @@ MERGED from [:react-native-vector-icons] /Users/skitesocial3/Documents/ridwan/ab
 MERGED from [:react-native-vector-icons] /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.72.4] /Users/skitesocial3/.gradle/caches/transforms-3/960b59e0a84275b9e83adc8e44ba70a4/transformed/jetified-react-android-0.72.4-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.72.4] /Users/skitesocial3/.gradle/caches/transforms-3/960b59e0a84275b9e83adc8e44ba70a4/transformed/jetified-react-android-0.72.4-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/2f52865bf2eeb4c824462459a43e9260/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/2f52865bf2eeb4c824462459a43e9260/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/eb6737efad756fc38ccd1bf1e85418dc/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/eb6737efad756fc38ccd1bf1e85418dc/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/c24482f7f46737d90c119fd767c0dc5d/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/c24482f7f46737d90c119fd767c0dc5d/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/159a5ddd2b273f458aefd71de461d9f6/transformed/jetified-animated-gif-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/159a5ddd2b273f458aefd71de461d9f6/transformed/jetified-animated-gif-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:hermes-android:0.72.4] /Users/skitesocial3/.gradle/caches/transforms-3/8ef81fd25974a65cf0f56b860e745044/transformed/jetified-hermes-android-0.72.4-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:hermes-android:0.72.4] /Users/skitesocial3/.gradle/caches/transforms-3/8ef81fd25974a65cf0f56b860e745044/transformed/jetified-hermes-android-0.72.4-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/4445ae53fe5b5ec4b9a9ba339b72d026/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
@@ -284,14 +298,12 @@ MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/skitesocia
 MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/skitesocial3/.gradle/caches/transforms-3/d028931c5737aa374cec341e99e2d6ea/transformed/jetified-openssl-1.1.1l-beta-1/AndroidManifest.xml:2:2-70
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/skitesocial3/.gradle/caches/transforms-3/b0ca6611cc895d2029280bab1de55447/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/skitesocial3/.gradle/caches/transforms-3/b0ca6611cc895d2029280bab1de55447/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/2f52865bf2eeb4c824462459a43e9260/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/2f52865bf2eeb4c824462459a43e9260/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/eb6737efad756fc38ccd1bf1e85418dc/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/eb6737efad756fc38ccd1bf1e85418dc/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/c24482f7f46737d90c119fd767c0dc5d/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/c24482f7f46737d90c119fd767c0dc5d/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/f948142c75887a5503c3432504f9dd18/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/f948142c75887a5503c3432504f9dd18/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/b08ae571eb946a938c8691a2a224c89b/transformed/jetified-animated-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/b08ae571eb946a938c8691a2a224c89b/transformed/jetified-animated-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/2bd586aaec6be09aed342d47e71b1f26/transformed/jetified-animated-drawable-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.5.0] /Users/skitesocial3/.gradle/caches/transforms-3/2bd586aaec6be09aed342d47e71b1f26/transformed/jetified-animated-drawable-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/1143830b622d71107c5c51d719a5a9a5/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/1143830b622d71107c5c51d719a5a9a5/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/bff75d294cde3c99b06c08bc0680c3ad/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
@@ -376,6 +388,8 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /User
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/skitesocial3/.gradle/caches/transforms-3/333a72668413b463250da835af8daccb/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/skitesocial3/.gradle/caches/transforms-3/07de82518c8e6290d5de1a24a3c43e24/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/89336414ed3732fa579a71ef2ec54766/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/89336414ed3732fa579a71ef2ec54766/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/skitesocial3/.gradle/caches/transforms-3/c4bba914ff23503e1b01e796edf753b9/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/skitesocial3/.gradle/caches/transforms-3/c4bba914ff23503e1b01e796edf753b9/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/skitesocial3/.gradle/caches/transforms-3/b3aa957f80b6a39fdb9e5be2fe9d7391/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
@@ -444,8 +458,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/skitesocial3/.gr
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/skitesocial3/.gradle/caches/transforms-3/6b8692173653e325570d9473aeab2cae/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/f194345dc6278e2f13fd2c9268c2087f/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/f194345dc6278e2f13fd2c9268c2087f/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/89336414ed3732fa579a71ef2ec54766/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/skitesocial3/.gradle/caches/transforms-3/89336414ed3732fa579a71ef2ec54766/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/skitesocial3/.gradle/caches/transforms-3/58ec593d588b7ce6309ff38e928d8768/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/skitesocial3/.gradle/caches/transforms-3/58ec593d588b7ce6309ff38e928d8768/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/skitesocial3/.gradle/caches/transforms-3/931e193039ac7658f1a60a1df32141e0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41

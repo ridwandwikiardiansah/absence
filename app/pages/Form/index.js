@@ -14,6 +14,7 @@ const Form = (props) => {
     const { params } = props.route
     const [username, setUsername] = useState('')
     const [infoLoc, setLoc] = useState();
+    const [loading, setLoading] = useState(false)
 
     const onPressCamera = () => {
         props.navigation.navigate('Camera')
@@ -22,20 +23,21 @@ const Form = (props) => {
     const getLocation = () => {
         Geolocation.getCurrentPosition((info) => {
             setLoc(info)
-          });
+        });
     }
 
-    useEffect(()=> {
+    useEffect(() => {
         getLocation()
-    },[])
+    }, [])
 
     const onPressAbsen = async () => {
+        setLoading(true)
         const options = {
             headers: {
                 'Content-Type': 'multipart/form-data',
             }
         };
-       
+
         const requestBody = new FormData();
         requestBody.append('fileToUpload', {
             uri: props.route.params.photo.uri,
@@ -48,18 +50,15 @@ const Form = (props) => {
         requestBody.append('page', 'presensi');
         try {
             const getList = await axios.post('http://114.119.187.58/fahim/presensi.php', requestBody, options)
-            console.log(getList, 'absesn');
-            
             if (getList.status === 200) {
-                Alert.alert(getList.data.response.statusText)
+                Alert.alert('Absen Berhasil')
+                setLoading(false)
                 props.navigation.goBack();
             }
         } catch (e) {
             console.log(e, 'error')
             Alert.alert(e.response)
         }
-
-
     }
 
     return (
@@ -71,10 +70,10 @@ const Form = (props) => {
                 {
                     isEmpty(params) ? (
                         <TouchableOpacity style={styles.ImageContainer} onPress={onPressCamera}>
-                        <Icon name={"plus"} size={40} />
-                    </TouchableOpacity>
+                            <Icon name={"plus"} size={40} />
+                        </TouchableOpacity>
                     ) : (
-                        <Image style={styles.icon} source={{uri: props.route.params.photo.uri}} />
+                        <Image style={styles.icon} source={{ uri: props.route.params.photo.uri }} />
                     )
                 }
                 <Input label={'username'} handleChange={(a) => setUsername(a)} />
@@ -82,6 +81,9 @@ const Form = (props) => {
                     <Text style={styles.textButton}>Presensi</Text>
                 </TouchableOpacity>
             </View>
+            {
+                loading ? <Image style={styles.loading} source={{ uri: 'https://media.tenor.com/hlKEXPvlX48AAAAj/loading-loader.gif' }} /> : null
+            }
         </View>
     )
 }
@@ -122,7 +124,7 @@ const styles = StyleSheet.create({
         padding: 15,
         fontSize: 18
     },
-    icon : {
+    icon: {
         width: 150,
         height: 150,
         alignSelf: 'center',
@@ -130,6 +132,15 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         borderWidth: 4,
         borderColor: color.Primary,
+    },
+    loading: {
+        width: 150,
+        height: 150,
+        position: 'absolute',
+        top: '45%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        alignSelf: 'center'
     }
 })
 

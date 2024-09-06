@@ -3,6 +3,7 @@ import { Alert, Image, StyleSheet, Text, TouchableOpacity, View } from "react-na
 import Input from "../../component/Input";
 import color from "../../constant/color";
 import { API } from "../../util/api";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 
 
@@ -12,20 +13,19 @@ const Login = (props) => {
 
     const onPressLogin = async () => {
         const body = {
-            usernamelogin: username,
-            passwordlogin: password,
+            username: username,
+            password: password,
             page: 'login'
         }
         const signin = await API.post('fahim/login.php', body)
-        console.log(signin);
-        
-        if(signin.data.status !== 'failed'){
+        if (signin.data.status !== 'failed') {
             Alert.alert(signin.data.msg)
+            await AsyncStorage.setItem('username', username)
             props.navigation.navigate("Home")
-        }else{
+        } else {
             Alert.alert(signin.data.msg)
         }
-        
+
     }
 
 
@@ -34,9 +34,9 @@ const Login = (props) => {
             <View style={styles.content}>
                 <Text style={styles.title}>Login to your account</Text>
                 <View style={styles.card}>
-                    <Image style={styles.images} source={require('../../asset/1.png')} resizeMode="contain"/>
-                    <Input placeholder={'Masukkan Username'} label={'Username'} handleChange={(a)=> setUsername(a)}/>
-                    <Input placeholder={'Masukkan Password'} label={'Password'} type={'password'} handleChange={(a)=>setPassword(a)}/>
+                    <Image style={styles.images} source={require('../../asset/1.png')} resizeMode="contain" />
+                    <Input placeholder={'Masukkan Username'} label={'Username'} handleChange={(a) => setUsername(a)} />
+                    <Input placeholder={'Masukkan Password'} label={'Password'} type={'password'} handleChange={(a) => setPassword(a)} />
                     <TouchableOpacity style={styles.button} onPress={onPressLogin}>
                         <Text style={styles.textButton}>Sign In</Text>
                     </TouchableOpacity>
@@ -72,11 +72,11 @@ const styles = StyleSheet.create({
         backgroundColor: color.Primary,
         marginVertical: 20,
         borderRadius: 10
-    }, 
+    },
     textButton: {
         color: color.White,
         textAlign: 'center',
-        padding: 10,   
+        padding: 10,
     },
     images: {
         alignSelf: 'center',

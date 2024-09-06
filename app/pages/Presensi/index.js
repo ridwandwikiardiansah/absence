@@ -1,11 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Image, ScrollView, StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import { API } from "../../util/api";
 import color from "../../constant/color";
 import Icon from 'react-native-vector-icons/Feather'
 import Header from "../../component/Header";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 
 const Presensi = (props) => {
+    const [list, setList] = useState([])
+
+    const getList = async () => {
+        const username = await AsyncStorage.getItem('username')
+        const body = {
+            page: 'listpresensi', 
+            username: username
+        }
+        const getNotif = await API.post('fahim/getlistpresensi.php', body)
+        setList(getNotif.data)
+    }
+
+    useEffect(()=> {
+        getList();
+    },[])
 
     const onPressPresensi = () => {
         props.navigation.navigate('Form')
