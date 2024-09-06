@@ -30,31 +30,31 @@ const Presensi = (props) => {
 
     return (
         <View style={styles.container}>
-           <Header title={'List Presensi'}/>
+           <Header title={'List Presensi'} back={()=> props.navigation.goBack()}/>
             <ScrollView contentContainerStyle={styles.scroll}>
                 <View style={styles.card}>
                     <View style={styles.avatarContainer}>
                         <Image source={require("../../asset/1.png")} resizeMode="contain" style={styles.avatar} />
                         <View>
-                            <Text>Cameron Williamson</Text>
-                            <Text>Agent Staff</Text>
+                            <Text style={styles.text}>Cameron Williamson</Text>
+                            <Text style={styles.text}>Agent Staff</Text>
                         </View>
                     </View>
                     <View style={styles.rows}>
                     <View style={styles.row}>
                         <Icon style={styles.icon} name={'calendar'} size={20} color={'red'}/>
-                        <Text>23-09-2023 | 08:23 Am</Text>
+                        <Text style={styles.text}>23-09-2023 | 08:23 Am</Text>
                     </View>
                     <View style={styles.row}>
                         <Icon style={styles.icon} name={'map-pin'} size={20} color={'green'}/>
-                        <Text>Jalan Pegangsaan...</Text>
+                        <Text style={styles.text}>Jalan Pegangsaan...</Text>
                     </View>
                     </View>
                    
                 </View>
             </ScrollView>
             <TouchableOpacity style={styles.button} onPress={onPressPresensi}>
-                <Icon name={'plus'} size={20} color={color.White}/>
+                <Icon name={'plus'} size={18} color={color.White}/>
                 <Text style={styles.textButton}>Presensi</Text>
             </TouchableOpacity>
         </View>
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         width: '100%',
         backgroundColor: color.Primary,
-        height: 160,
+        height: 120,
         alignItems: 'center',
         paddingHorizontal: 40,
         borderBottomLeftRadius: 60,
@@ -85,10 +85,11 @@ const styles = StyleSheet.create({
     },
     card: {
         width: '100%',
-        padding: 20,
+        paddingHorizontal: 10,
         elevation: 10,
         alignSelf: 'center',
         backgroundColor: color.White,
+        paddingBottom: 20,
         borderRadius: 10
     },
     avatarContainer: {
@@ -112,7 +113,6 @@ const styles = StyleSheet.create({
         justifyContent : 'center',
         alignItems: 'center',
         backgroundColor: color.Primary,
-        marginVertical: 20,
         borderRadius: 10
     }, 
     textButton: {
@@ -120,20 +120,24 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         padding: 12,   
         marginLeft: 5,
-        fontSize: 20
+        fontSize: 18
     },
     row: {
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'space-between',
     },
     icon: {
-        marginRight: 10
+        marginRight: 5
     },
     rows: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center'
     },
+    text:{ 
+        color:'#000'
+    }
 })
 
 export default Presensi

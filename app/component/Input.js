@@ -28,7 +28,7 @@ const Input = (props) => {
                     onChangeText={props.handleChange}
                     numberOfLines={props.line}
                     secureTextEntry={props.type === 'password' ? secure : false}
-                    placeholderTextColor={Color.Text}
+                    placeholderTextColor={'grey'}
                     inputMode={props.mode}
                     style={styles.inputs}
                     editable={props.disabled}
@@ -59,7 +59,8 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '600',
         marginBottom: 5,
-        marginTop: 10
+        marginTop: 10,
+        color: '#000'
         // padding: 10,
     },
     input: {
@@ -78,7 +79,7 @@ const styles = StyleSheet.create({
         marginRight: 20
     },
     placeholder: {
-        color: Color.Grey,
+        color: 'grey',
     },
     icon: {
         marginLeft: 10,
@@ -90,7 +91,8 @@ const styles = StyleSheet.create({
     },
     inputs: {
         width: '103%',
-        paddingLeft: 10
+        paddingLeft: 10,
+        color: '#000'
     }
 })
 

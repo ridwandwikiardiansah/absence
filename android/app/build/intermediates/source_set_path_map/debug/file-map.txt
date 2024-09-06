@@ -38,9 +38,10 @@ com.newproject.app-mergeDebugResources-36 /Users/skitesocial3/Documents/ridwan/a
 com.newproject.app-merged_res-37 /Users/skitesocial3/Documents/ridwan/absence/android/app/build/intermediates/merged_res/debug
 com.newproject.app-debug-38 /Users/skitesocial3/Documents/ridwan/absence/android/app/src/debug/res
 com.newproject.app-main-39 /Users/skitesocial3/Documents/ridwan/absence/android/app/src/main/res
-com.newproject.app-packaged_res-40 /Users/skitesocial3/Documents/ridwan/absence/node_modules/@react-native-community/geolocation/android/build/intermediates/packaged_res/debug
-com.newproject.app-packaged_res-41 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/packaged_res/mlkitDebug
-com.newproject.app-packaged_res-42 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-gesture-handler/android/build/intermediates/packaged_res/debug
-com.newproject.app-packaged_res-43 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
-com.newproject.app-packaged_res-44 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
-com.newproject.app-packaged_res-45 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug
+com.newproject.app-packaged_res-40 /Users/skitesocial3/Documents/ridwan/absence/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/packaged_res/debug
+com.newproject.app-packaged_res-41 /Users/skitesocial3/Documents/ridwan/absence/node_modules/@react-native-community/geolocation/android/build/intermediates/packaged_res/debug
+com.newproject.app-packaged_res-42 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-camera/android/build/intermediates/packaged_res/mlkitDebug
+com.newproject.app-packaged_res-43 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-gesture-handler/android/build/intermediates/packaged_res/debug
+com.newproject.app-packaged_res-44 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
+com.newproject.app-packaged_res-45 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
+com.newproject.app-packaged_res-46 /Users/skitesocial3/Documents/ridwan/absence/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug

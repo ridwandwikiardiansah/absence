@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Alert, Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Alert, Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import Input from "../../component/Input";
 import color from "../../constant/color";
 import { API } from "../../util/api";
@@ -31,18 +31,19 @@ const Login = (props) => {
 
     return (
         <View style={styles.container}>
-            <View style={styles.content}>
-                <Text style={styles.title}>Login to your account</Text>
-                <View style={styles.card}>
-                    <Image style={styles.images} source={require('../../asset/1.png')} resizeMode="contain" />
-                    <Input placeholder={'Masukkan Username'} label={'Username'} handleChange={(a) => setUsername(a)} />
-                    <Input placeholder={'Masukkan Password'} label={'Password'} type={'password'} handleChange={(a) => setPassword(a)} />
-                    <TouchableOpacity style={styles.button} onPress={onPressLogin}>
-                        <Text style={styles.textButton}>Sign In</Text>
-                    </TouchableOpacity>
+            <ScrollView>
+                <View style={styles.content}>
+                    <Text style={styles.title}>Login to your account</Text>
+                    <View style={styles.card}>
+                        <Image style={styles.images} source={require('../../asset/1.png')} resizeMode="contain" />
+                        <Input placeholder={'Masukkan Username'} label={'Username'} handleChange={(a) => setUsername(a)} />
+                        <Input placeholder={'Masukkan Password'} label={'Password'} type={'password'} handleChange={(a) => setPassword(a)} color={'#000'} />
+                        <TouchableOpacity style={styles.button} onPress={onPressLogin}>
+                            <Text style={styles.textButton}>Sign In</Text>
+                        </TouchableOpacity>
+                    </View>
                 </View>
-            </View>
-
+            </ScrollView>
         </View>
     )
 }
@@ -58,7 +59,7 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 24,
         fontWeight: '800',
-        marginVertical: 50,
+        marginVertical: 20,
         textAlign: 'center',
         color: color.White
     },
@@ -66,7 +67,8 @@ const styles = StyleSheet.create({
         padding: 40,
         elevation: 5,
         borderRadius: 20,
-        backgroundColor: color.White
+        backgroundColor: color.White,
+        elevation: 10
     },
     button: {
         backgroundColor: color.Primary,
@@ -80,8 +82,8 @@ const styles = StyleSheet.create({
     },
     images: {
         alignSelf: 'center',
-        width: 300,
-        height: 300
+        width: 200,
+        height: 200
     }
 })
 

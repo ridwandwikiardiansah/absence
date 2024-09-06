@@ -73,7 +73,7 @@ const Home = (props) => {
                 <View style={styles.notifContainer}>
                     <Image style={styles.avatar} source={require('../../asset/1.png')} resizeMode="contain" />
                     <View style={styles.notif}>
-                        <Icon name={'bell'} size={25} />
+                        <Icon name={'bell'} size={25} color={'#000'}/>
                         <Text style={styles.textNotif}>{notif.data}</Text>
                     </View>
 
@@ -92,7 +92,7 @@ const Home = (props) => {
                 }
             </View>
             <TouchableOpacity style={styles.buttonRefresh} onPress={onPressRefresh}>
-                <Icon name={'refresh'} size={50} color={color.White} />
+                <Icon name={'refresh'} size={40} color={color.White} />
             </TouchableOpacity>
             {
                 loading ? <Image style={styles.loading} source={{ uri: 'https://media.tenor.com/hlKEXPvlX48AAAAj/loading-loader.gif' }} /> : null
@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
         alignSelf: 'center',
         width: '80%',
-        marginTop: -100,
+        marginTop: -50,
 
 
     },
@@ -149,15 +149,16 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        width: 180,
-        height: 180,
+        width: 120,
+        height: 120,
         elevation: 10,
         borderRadius: 10,
         marginBottom: 20
     },
     title: {
         fontSize: 18,
-        fontWeight: '800'
+        fontWeight: '800',
+        color: '#000'
     },
     icon: {
         marginBottom: 10,
@@ -191,11 +192,11 @@ const styles = StyleSheet.create({
     },
     buttonRefresh: {
         backgroundColor: color.Primary,
-        padding: 20,
+        padding: 10,
         position: 'absolute',
         right: 30,
-        bottom: 50,
-        borderRadius: 50
+        bottom: 20,
+        borderRadius: 60
     },
     loading: {
         width: 150,

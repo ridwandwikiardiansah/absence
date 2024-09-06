@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { StyleSheet, Text, View, TouchableOpacity, Image, Alert } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, Image, Alert, KeyboardAvoidingView, Platform, ScrollView } from "react-native";
 import { isEmpty } from 'lodash';
 import Header from "../../component/Header";
 import axios from "axios";
@@ -63,27 +63,33 @@ const Form = (props) => {
 
     return (
         <View style={styles.container}>
-            <Header title={'Add Presensi'} />
-            <View style={styles.content}>
-                <Text style={styles.title}>Take a selfie photo</Text>
-                <Text style={styles.subText}>Make sure your selfie clearly shows your self</Text>
+            <ScrollView>
+                <Header title={'Add Presensi'} back={()=> props.navigation.goBack()} />
+                <View style={styles.content}>
+                    <Text style={styles.title}>Take a selfie photo</Text>
+                    <Text style={styles.subText}>Make sure your selfie clearly shows your self</Text>
+                    {
+                        isEmpty(params) ? (
+                            <TouchableOpacity style={styles.ImageContainer} onPress={onPressCamera}>
+                                <Icon name={"plus"} size={40} color={'#000'} />
+                            </TouchableOpacity>
+                        ) : (
+                            <Image style={styles.icon} source={{ uri: props.route.params.photo.uri }} />
+                        )
+                    }
+                    <KeyboardAvoidingView
+                        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+                    >
+                        <Input label={'username'} handleChange={(a) => setUsername(a)} />
+                    </KeyboardAvoidingView>
+                    <TouchableOpacity style={styles.button} onPress={onPressAbsen}>
+                        <Text style={styles.textButton}>Presensi</Text>
+                    </TouchableOpacity>
+                </View>
                 {
-                    isEmpty(params) ? (
-                        <TouchableOpacity style={styles.ImageContainer} onPress={onPressCamera}>
-                            <Icon name={"plus"} size={40} />
-                        </TouchableOpacity>
-                    ) : (
-                        <Image style={styles.icon} source={{ uri: props.route.params.photo.uri }} />
-                    )
+                    loading ? <Image style={styles.loading} source={{ uri: 'https://media.tenor.com/hlKEXPvlX48AAAAj/loading-loader.gif' }} /> : null
                 }
-                <Input label={'username'} handleChange={(a) => setUsername(a)} />
-                <TouchableOpacity style={styles.button} onPress={onPressAbsen}>
-                    <Text style={styles.textButton}>Presensi</Text>
-                </TouchableOpacity>
-            </View>
-            {
-                loading ? <Image style={styles.loading} source={{ uri: 'https://media.tenor.com/hlKEXPvlX48AAAAj/loading-loader.gif' }} /> : null
-            }
+            </ScrollView>
         </View>
     )
 }
@@ -98,10 +104,12 @@ const styles = StyleSheet.create({
     title: {
         fontWeight: 'bold',
         fontSize: 20,
-        textAlign: 'center'
+        textAlign: 'center',
+        color: '#000'
     },
     subText: {
-        textAlign: 'center'
+        textAlign: 'center',
+        color: '#000'
     },
     ImageContainer: {
         alignSelf: 'center',

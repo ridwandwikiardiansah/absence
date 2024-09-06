@@ -22,7 +22,7 @@ const Application = () => {
 function App() {
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName={"Home"}>
+            <Stack.Navigator initialRouteName={"Login"}>
                 <Stack.Screen
                     name="Login"
                     component={Login}
