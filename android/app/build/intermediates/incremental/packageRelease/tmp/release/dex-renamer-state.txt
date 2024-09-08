@@ -1,4 +1,4 @@
-#Sat Sep 07 04:10:43 WIB 2024
+#Sat Sep 07 04:20:17 WIB 2024
 base.1=/Users/skitesocial3/Documents/ridwan/absence/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
 path.1=classes2.dex
 base.0=/Users/skitesocial3/Documents/ridwan/absence/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
